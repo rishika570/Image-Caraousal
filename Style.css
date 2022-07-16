@@ -1,0 +1,78 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(100, 98, 99);
+}
+#container{
+    width:500px;
+    height:350px;
+    margin-top: 100px;
+    border: 10px solid rgb(253, 252, 252);
+    position: relative;
+    
+}
+ 
+ .prev{
+    position: absolute;
+    top:150px;
+    left: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+
+ }
+ .next{
+    position: absolute;
+    top:150px;
+    right:10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+ }
+ .btn{
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.507);
+    width:40px;
+    height:40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+    z-index: 10;
+ }
+ .btn:hover{
+    background-color: white;
+    color: black;
+ }
+ .caraousal img{
+    width:500px;
+    height:350px;
+    box-sizing: border-box;
+ }
+ .item{
+    position: absolute;
+    display: none;
+ }
+ .main{
+    display: block;
+ }
+ .caption{
+    position: absolute;
+    bottom:3px;
+    background-color:rgba(0, 0, 0, 0.932);
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+ }
+ #heading{
+   color:white;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 100px;
+ }
